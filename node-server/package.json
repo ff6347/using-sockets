@@ -1,0 +1,18 @@
+{
+  "name": "node-server",
+  "version": "0.1.0",
+  "description": "a minimal server to talk to a processing sketch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index"
+  },
+  "keywords": [
+    "processing.org",
+    "socket"
+  ],
+  "author": "Fabian 'fabiantheblind' Morón Zirfas <fabian.moron.zirfas@gmail.com> (http://fabianmoronzirfas.me)",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
+}
